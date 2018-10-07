@@ -1,0 +1,17 @@
+#RaspisaniePar{
+	display:none; 
+	border-radius:15px;
+}
+#RaspisanieZvonkov{
+	display:none; 
+	border-radius:5px;
+}
+.nameDay{
+	color:red;
+}
+#inputZnak{
+	border-radius:10px;
+}
+#inputZnak:active{
+	background-color:blue;
+}

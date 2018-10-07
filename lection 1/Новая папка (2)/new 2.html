@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+	 <title>Знак зодіака</title>
+	 <link rel="stylesheet" href="stale.css">
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"> </script>
+	 <script src="script.js"></script>
+</head>
+<body> 
+<div class="logo">
+ <img src="img/15.png" alt="Logo" width="1350px" height="300px"></img>
+</div>
+
+<label>Введите день своего рождения:</label>
+		<input type="text" id="dayBorn" placeholder=""></input><br><br>
+		<label>Введите месяц своего рождения:</label>
+		<input type="text" id="mounsBorn" placeholder=""></input><br><br>
+		<input id="inputZnak" type="button" onclick="opredelitZnak()" value = "Определить знак зодиака"></input><br>
+		<label>Ваш знак: </label>
+		<label id="nameZnak"></label><br><br>
+		<label id="info"></label><br><br>
+		<img id="znak" src="" style="width:600; height:400;">
+</body>
+</html> 
